@@ -1,0 +1,91 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.head{
+		height: 30px;
+		background: #c0c0c0;
+	}
+	.box-head{
+		height: 30px;
+		width: 1200px;
+		margin:0 auto;
+	}
+	.head-left{
+		float: left;
+		margin-top: 5px;
+	}
+	#fbox{
+		width: 1100px;
+		height: 30px;
+		right: 300px;
+		position: absolute;
+		overflow: hidden;
+	}
+	.div1{
+		width: 450px;
+		height: 30px;
+		font-size: 15px;
+		line-height: 30px;
+		position: absolute;
+		right: -200px;
+		color: red;
+	}
+	.box{
+		width: 1200px;
+		height: 400px;
+		margin:100px auto;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.box>span{
+		display: block;
+		width: 30px;
+		height: 50px;
+		text-align: center;
+		cursor: pointer;
+		top: 175px;
+		line-height: 50px;
+		background: rgb(255, 0, 0);
+		font-size: 30px;
+		position: absolute;
+		opacity: 0;
+		color: white;
+	}
+	#right{
+		right: 30px;
+	}
+	#left{
+		left: 30px;
+	}
+	.point{
+		position: absolute;
+		left: 500px;
+		bottom: 20px;
+		list-style: none;
+	}
+	.point>li{
+		float: left;
+		width: 20px;
+		height: 20px;
+		background: #ccc;
+		cursor: pointer;
+		margin: 0 10px;
+		border-radius: 50%;
+		text-align: center;
+	}
+	.point .move{
+		background: red;
+		color: white;
+	}
+	.photo{
+		width: 8400px;
+		position: absolute;
+		left: -1200px;
+	}
+	.photor{
+		width: 1200px;
+		overflow: hidden;
+		float: left
+	}
